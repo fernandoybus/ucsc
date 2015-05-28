@@ -1,0 +1,27 @@
+//
+//  cell.swift
+//  UCSC Store
+//
+//  Created by Gisele Sardas on 16/05/15.
+//  Copyright (c) 2015 Razeware LLC. All rights reserved.
+//
+
+import UIKit
+
+class cell: UITableViewCell {
+
+    @IBOutlet weak var postedImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
